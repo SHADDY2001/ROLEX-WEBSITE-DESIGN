@@ -1,0 +1,184 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins',sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+
+video{
+	position:absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left:0;
+	object-fit: cover;
+	z-index: -1;
+}
+
+.logo{
+	width: 50px;
+	height: 50px;
+	padding: 8px;
+	cursor: pointer;
+	transition: 0.4s ease;
+
+
+}	
+
+.logo:hover{
+	transform: scale(1.12);
+
+}
+
+header{
+	background-color: #00603a9e;
+	backdrop-filter: blur(20px);
+
+}
+
+.logo-menu{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+nav .logo-menu .menu{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	gap: 1em;
+	margin-left: -10em;
+	color: white; 
+	cursor: pointer;
+
+}
+
+.menu a{
+	color: white;
+	font-size: 18px;
+	transition: 0.3s ease;
+}
+
+.menu a:hover{
+	color: #00cc7a9e;
+	transition: 0.3s ease;
+
+}
+
+#menu-icon{
+	color: white;
+	font-size: 24px;
+	margin-left: -90%;
+	transition: 0.3s ease;
+
+}
+
+#menu-icon:hover{
+	color: #00cc7a9e;
+}
+
+.search, .search a{
+	color: white;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+	transition: 0.3s ease;
+}
+
+.search:hover, .search a:hover{
+	color: #00cc7a9e;	
+}
+
+.store, .store a{
+	color: white;
+	font-size: 18px;
+	display:flex;
+	align-items: center;
+	gap: 1em;
+	transition: 0.3s ease;
+
+}
+
+.store:hover, .store a:hover{
+	color: #00cc7a9e;
+
+}
+
+.favs, .favs a{
+	color: white;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+	transition: 0.3s ease;
+
+}
+
+.favs:hover, .favs a:hover{
+	color: #00cc7a9e;
+
+}
+
+nav{
+	padding: 2em 20em;
+    display: flex;
+    gap: 5em;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav ul{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	gap: 5em;
+}
+
+.info{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 18em;
+
+}
+
+.info h1{
+	font-size: 87px;
+	color: white;
+}
+
+.info p{
+	font-size: 22px;
+	color: white;
+	font-weight: 700;
+}
+
+.info button{
+	padding: 10px 20px;
+	border-radius: 10px;
+	border: none;
+	color: white;
+	font-size: 24px;
+	background-color: #00cc7a9e;
+	border: 2px solid #00603a9e;
+	opacity: 0.8;
+	margin-top: 10px;
+	cursor: pointer;
+
+}
+
+.info button:hover{
+	box-shadow: 0 0  15px lawngreen,
+				0 0  25px lawngreen,
+				0 0  50px lawngreen,
+				0 0  100px lawngreen;
+	transition: 0.4s ease;
+	transform: translateY(-5px);
+	transform: scale(1.12);
+}
